@@ -1,0 +1,200 @@
+
+
+
+
+
+.services{
+    /* display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between; */
+    /* width:100vw;
+    margin:0 auto; */
+    /* padding:4.5rem 0; */
+}
+.main_text_header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:80%;
+    margin: 0 auto;
+    padding: 6rem 15px;
+}
+
+.main_text_header > h1{
+    text-align: center;
+    font-size: 40px;
+    /* color: #fff; */
+}
+
+.main_text_header > p{
+        max-width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgba(255,255,255,.7);
+}
+.header{
+    background-image: url('https://n.foxdsgn.com/rela/wp-content/uploads/2019/09/our-spa_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+/* .overlay {
+    background-color: #281A12;
+    opacity: .54;
+    transition: background 0.3s,border-radius 0.3s,opacity 0.3s;
+} */
+
+/* .overlay {
+    height: 50%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #281A12;
+    opacity: .54;
+    transition: background 0.3s,border-radius 0.3s,opacity 0.3s;
+} */
+
+
+
+.ad{
+    text-align:start;
+    background-image: url("https://n.foxdsgn.com/rela/wp-content/uploads/2019/09/bg_home1_1.png");
+    background-position: 100% 13px;
+    background-repeat: no-repeat;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    padding:4rem 0;
+}
+
+.skinCare{
+    /* background:red; */
+    width:90vw;
+    margin: 0 auto;
+   display:flex;
+   justify-content:center;
+   flex-direction:column;
+}
+.skinCare > h2{
+    text-align:start;
+    font-size: 40px;
+}
+
+.minSlideShow{
+    padding:2.5rem 1rem;
+    margin-top: 2rem;
+}
+
+
+
+.closingTag{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+    background-image: url('https://n.foxdsgn.com/rela/wp-content/uploads/2019/09/bg-home2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding:2rem 0;
+}
+
+.tag_whole{
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.tag{
+    background:#fff;
+    width:80%;
+    margin: 0 auto;
+    padding:3rem 0;
+    margin-top: 6rem;
+}
+
+.tag_pic{
+    height: 160px;
+    width:160px;
+    display:flex;
+   align-items:center;
+   justify-content:center;
+   margin: 0 auto;
+    border-radius:50%;
+    border:2px solid black;
+    overflow: hidden !important;
+}
+.tag_pic >img{
+    object-fit: contain;
+     height: 160px;
+    width:160px;
+    border-radius:50%;
+    overflow: hidden !important;
+}
+.tag_text{
+    padding:3rem 0.6rem;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+
+@media screen and (min-width:768px){
+    .closingTag{
+        padding:4.5rem;
+    }
+
+    .main_text_header{
+        margin: 0 auto;
+        padding:14rem 3rem;
+    }
+    /* .overlay {
+        height: 78%;
+     } */
+
+     .main_text_header > h1{
+     font-size: 60px;
+     line-height: 1.2;
+     }
+
+     .ad{
+        display:flex;
+        flex-direction: row-reverse;
+        align-items:center;
+        justify-content:center;
+    }
+    .skinCare{
+        width:50%;
+        padding:0 2.5rem;
+    }
+    .skinCare > h2{
+        font-size: 50px;
+        }
+    
+        .carousel{
+            width:90%;
+        }
+    .minSlideShow{
+            width:50%;
+            padding-left:2.5rem;
+        }
+        .tag_whole{
+            width:100vw;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:space-between
+        }
+        .tag{
+            width:30%;
+        }
+}

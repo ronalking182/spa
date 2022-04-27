@@ -1,0 +1,132 @@
+.address{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    width:100vw;
+    margin:0 auto;
+    padding:4.5rem 0;
+}
+
+.side{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    padding:2.5rem 2rem;
+    /* background:green; */
+}
+
+.add{
+    padding:3rem 1rem;
+}
+.add h2{
+    font-size: 30px !important;
+}
+
+.side > h2{
+    font-size:30px;
+}
+
+.side > p{
+    font-size:20px;
+}
+
+.form{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    padding: 16px 18px;
+    font: inherit;
+    color: inherit;
+    max-width: 100%;
+}
+.form >form{
+    padding: 45px 20px 42px;
+    width:100%;
+    background-color: #fff;
+}
+.form >form >input,
+.form > form > textarea{
+    padding: 16px 18px;
+    background: #f7efec;
+    margin-top: 1.2rem;
+    width: 100%;
+    font: inherit;
+    color: inherit;
+    max-width: 100%;
+    overflow: visible;
+    display:grid;
+    grid-template-rows: repeat(6, 1fr);
+}
+.form > form > h3{
+    padding:0.5rem 0;
+    color: #43484e;
+}
+
+.form > form > input[type=submit]{
+    background: #a87e72;
+    color: #fff;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 1.15;
+    letter-spacing: 3.3px;
+    font-style: normal;
+    padding: 23px 35px;
+    border: 1px solid;
+}
+
+.closingTag{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+    background-image: url('https://n.foxdsgn.com/rela/wp-content/uploads/2019/09/bg-home2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding:2rem 0;
+}
+
+
+
+@media screen and (min-width:768px){
+
+    .address{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+        width:100vw;
+        margin:0 auto;
+    }
+    .side > h2{
+        font-size:45px;
+    }
+    .side > p{
+        font-size:20px;
+    }
+
+    .form >form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       grid-column-gap: 15px;
+        grid-row-gap: 14px;
+    }
+    .form >form >:nth-child(1)  {
+    text-align:center;
+    grid-column:1/3;
+  }
+  
+    .form >form >:nth-child(6)  {
+ grid-column:1/3;
+   }
+ .form >form >:nth-child(7)  {
+     grid-column:1/3;
+    }
+    .closingTag{
+        padding:4.5rem;
+    }
+}
+

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+  color: var(--font-color);
+  /* overflow: hidden; */
+}
+body{
+  background-image: url('https://n.foxdsgn.com/rela/wp-content/uploads/2019/09/bg_2_branches.png') !important;
+    background-position: 44% 600px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: background .3s,border-radius .3s,opacity .3s;
+  background-color: var(--background-color) !important;
+}
+
+:root{
+  --size-1: 0.25rem;
+  --size-2: 0.5rem;
+  --size-3: 0.75rem;
+  --size-4: 1rem;
+  --size-5: 1.25rem;
+  --size-6: 1.5rem;
+  --size-8: 2rem;
+  --size-16: 4rem;
+  --size-20: 5rem;
+  --size-40: 10rem;
+
+
+  --background-color: #fff8f5 !important;
+  --link-background: #eabfb9;
+  --card-background:#fdf5ef;
+  --nav-background:#ffe8e5;
+  --button-color:#000 !important;
+  --font-color:#43484e;
+
+  font-family: 'Quicksand', sans-serif !important;
+
+}
+p{
+  counter-reset: var(--font-color);
+  font-size: 14px;
+}
+
+a{
+  color: var(--font-color) !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+}
+ h1,h2,h3,h4,h5,h6{
+   color:#000;
+  font-family: old standard tt;
+ }
+
+
+ 
