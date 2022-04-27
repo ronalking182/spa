@@ -12,14 +12,16 @@ img{
 .textCenter{
     text-align: center;
     height: 50%;
-    margin: 0;
+    margin: 0 auto;
     display:flex;
+    margin-bottom:-1rem !important;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
 }
 .textCenter > h2{
     font-size: 50px !important;
+    /* margin-top:0.4rem !important; */
 }
 
 .spa{
